@@ -1,0 +1,178 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  width: 100%;
+  padding: 8px 16px;
+}
+
+#navlogo {
+  height: 32px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+#banner {
+  width: 100%;
+  object-fit: cover;
+  height: 360px;
+}
+
+#about {
+  padding-left: 32px;
+  padding-right: 32px;
+  display: flex;
+  flex-direction: row;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#description {
+  width: 50%;
+  padding: 0;
+}
+
+#profile {
+  width: 50%;
+  height: 20%;
+  object-fit:cover;
+  border-radius: 20px;
+}
+
+h2 {
+  margin-top: 32px;
+  text-align: center;
+}
+
+#hobbies {
+  border: 2px solid #333;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: rgb(184, 203, 223)  ; 
+  width: 70%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#learning-goals {
+  border: 2px solid #333;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: rgb(184, 203, 223); 
+  width: 70%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#life-goals {
+  border: 2px solid #333;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: rgb(184, 203, 223); 
+  width: 70%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h3 {
+  margin-bottom: 8px;
+}
+
+#footer {
+  background-color:#eee;
+  padding: 16px;
+  margin-top: 32px;
+  text-align: center;
+}
+
+.youtube-button {
+  background-color:rgb(200, 0, 0);
+  color: white; 
+  border: none;
+  height: 36px;
+  width: 105px;
+  border-radius: 2px; 
+  cursor: pointer;
+  margin-right: 8px;
+  transition: opacity 0.15s;}
+
+  .youtube-button:hover {
+    opacity: 0.8;
+  }
+
+  .youtube-button:active {
+    opacity: 0.5;
+  }
+
+.facebook-button {
+    background-color:#4267B2;
+    color: white; 
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 2px; 
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+  }
+
+  .facebook-button:hover {
+    opacity: 0.8;
+  }
+
+  .facebook-button:active {
+    opacity: 0.5;
+  }
+
+.tiktok-button {
+  background-color: black;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  color: white;
+  height: 36px;
+  width: 74px;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.15s, 
+    color 0.15s;
+  }
+
+  .tiktok-button:hover {
+    background-color:white;
+    color: black; 
+  }
+
+  .tiktok-button:active {
+    opacity: 0.7;
+  }
+
+#footer-links {
+  list-style: none;
+}
+
+#footer-links li {
+  display: inline;
+  margin: 16px;
+}
+
+a{
+  text-decoration: none;
+}
+
+#social-links {
+  color: gray;
+}
+
