@@ -185,7 +185,7 @@
     <?php
         echo "<p>This is my PHP Wegpage!</p>"
         ?>
-    </div>
+    </div
 
 
     <script>
