@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,22 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Web Page</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-
-        .toggleBtn {
-            display: flex;
-            margin: 0 auto;
-            margin-top: 20px;
-        }
-
-        #learning-goals {
-            display: none;
-        }
-    </style>
 </head>
 
 <body>
-
+    <!--<div id="navbar">
+         <img id="logo" src="logo.jpg" alt="logo">
+    </div> -->
     <img id="banner" src="banner.jpg" alt="Banner">
     <h1>
         Personal Information
@@ -88,7 +79,7 @@
     </div>
 
     <!-- Add a button to toggle the visibility of the Learning Goals section -->
-    <button class="toggleBtn" onclick="toggleHobbies()">Toggle Hobbies</button>
+    <button onclick="toggleHobbies()">Expand Hobbies</button>
 
     <h2>Learning Goals</h2>
     <div id="learning-goals">
@@ -120,7 +111,7 @@
     </div>
 
     <!-- Add a button to toggle the visibility of the Learning Goals section -->
-    <button class="toggleBtn" onclick="toggleLifeGoals()">Toggle Life Goals</button>
+    <button onclick="toggleLifeGoals()">Expand Life Goals</button>
 
     <div id="footer">
         <span id="social-links">Social Links</span>
@@ -168,11 +159,70 @@
     <script>
         // JavaScript function to toggle the visibility of the Learning Goals section
         function toggleLifeGoals() {
-            var lifeGoalsSection = document.getElementById("life-goals");
-            lifeGoalsSection.style.display = (lifeGoalsSection.style.display === "none") ? "block" : "none";
+            var LifeGoalsSection = document.getElementById("life-goals");
+            LifeGoalsSection.style.display = (LifeGoalsSection.style.display === "none") ? "block" : "none";
         }
     </script>
+    
+    <script>
+        function toggleLearningGoals() {
+            var learningGoalsSection = document.getElementById("learning-goals");
+            learningGoalsSection.style.display = (learningGoalsSection.style.display === "none") ? "block" : "none";
+        }
+    </script>
+    
+    <script>
+        var personalInfo = {
+    fullName: "Kurt Yuri Calzo Fegarido",
+    age: 21,
+    course: "Bachelor of Science in Information Technology",
+    // Add more properties as needed
+};
 
+console.log(personalInfo.fullName); // Accessing the full name
+
+    </script>
+
+    <script>
+        function displayMessage() {
+    alert("Hello, welcome to my webpage!");
+}
+
+// Call the function
+displayMessage();
+
+    </script>
+
+    <script>
+        // Change the color of the heading to red
+var heading = document.querySelector("h1");
+heading.style.color = "red";
+
+    </script>
+
+    <script>
+        // Fetch data from an API asynchronously
+async function fetchData() {
+    try {
+        const response = await fetch("https://api.example.com/data");
+        const data = await response.json();
+        console.log(data);
+    } catch (error) {
+        console.error("Error fetching data:", error);
+    }
+}
+
+// Call the function to fetch data
+fetchData();
+
+    </script>
+    
+<script>
+    // Open a new window
+function openNewWindow() {
+    window.open("https://www.example.com");
+}
+
+</script>
 </body>
-
 </html>
